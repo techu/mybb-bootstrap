@@ -330,60 +330,60 @@ img.attachment {
 	margin-top: 0;
 }
 
-		blockquote {
-         background:#FFFAEC;
-         border:1px solid #FFDD7F;
-         padding:4px;
-         margin:4px;
-         overflow:auto
-        -moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-        border-radius: 6px;
+blockquote {
+    background:#FFFAEC;
+    border:1px solid #FFDD7F;
+    padding:4px;
+    margin:4px;
+    overflow:auto
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    border-radius: 4px;
 }
 
 blockquote cite {
-         background:#FFF0C5;
-         display:block;
-         padding:3px;
-         font-style:normal;
-         font-weight:bold;
-         -moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-        border-radius: 6px;
+    background:#FFF0C5;
+    display:block;
+    padding:3px;
+    font-style:normal;
+    font-weight:bold;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    border-radius: 4px;
 }
 
 blockquote cite span {
-          font-weight:normal
+    font-weight:normal
 }
 
 .codeblock {
-           background:#F2FAFF;
-           border:1px solid #AEE1FF;
-           padding:0;  
-           overflow:auto;
-           -moz-border-radius: 6px;
-	   -webkit-border-radius: 6px;
-           border-radius: 6px;
+    background:#F2FAFF;
+    border:1px solid #AEE1FF;
+    padding:0;  
+    overflow:auto;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .codeblock .title {
-           background:#D2EEFF;
-           border-bottom:1px dashed #FFF;
-           padding:3px;
-           font-weight:bold;
-           -moz-border-radius: 6px;
-	   -webkit-border-radius: 6px;
-           border-radius: 6px;
+    background:#D2EEFF;
+    border-bottom:1px dashed #FFF;
+    padding:3px;
+    font-weight:bold;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .codeblock code {
-            overflow:auto; 
-            height:auto;
-            max-height:200px;
-            display:block;
-            padding:4px;
-            font-family:Monaco,Consolas,Courier,monospace;
-            font-size:13px
+    overflow:auto; 
+    height:auto;
+    max-height:200px;
+    display:block;
+    padding:4px;
+    font-family:Monaco,Consolas,Courier,monospace;
+    font-size:13px
 }
 
 .subforumicon {
