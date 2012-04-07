@@ -3041,6 +3041,7 @@ body {
 					 
 					 This is free software, support us and we'll support you. -->
 {$lang->powered_by} <a href="http://mybb.com/" target="_blank">MyBB{$mybbversion}</a>, &copy; 2002-{$copy_year} <a href="http://mybb.com/" target="_blank">MyBB Group</a>.<br />
+				Theme By: <a href="http://oureon.com/" target="_blank">oureon</a>.<br />
 				<!-- End powered by -->
 				<br />
 <br class="clear" />
