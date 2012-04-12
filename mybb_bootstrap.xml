@@ -2398,7 +2398,7 @@ body {
 	<tr><td class="trow1 smalltext"><a href="{$profile_link}" class="usercp_nav_item usercp_nav_viewprofile">{$lang->ucp_nav_view_profile}</a></td></tr>
 </tbody>]]></template>
 		<template name="usercp_profile_away" version="120"><![CDATA[<br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->away_information}</strong></legend>
 <table  >
 <tr>
@@ -2469,7 +2469,7 @@ body {
 </tr>
 <tr>
 <td width="50%" class="trow1" valign="top">
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->login_cookies_privacy}</strong></legend>
 <table  >
 <tr>
@@ -2479,7 +2479,7 @@ body {
 </table>
 </fieldset>
 <br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->messaging_notification}</strong></legend>
 <table  >
 <tr>
@@ -2519,7 +2519,7 @@ body {
 </table>
 </fieldset>
 <br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->date_time_options}</strong></legend>
 <table  >
 <tr>
@@ -2564,7 +2564,7 @@ body {
 </fieldset>
 </td>
 <td width="50%" class="trow1" valign="top">
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->forum_display_options}</strong></legend>
 <table  >
 {$tppselect}
@@ -2590,7 +2590,7 @@ body {
 </table>
 </fieldset>
 <br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->thread_view_options}</strong></legend>
 <table  >
 	<tr>
@@ -2619,7 +2619,7 @@ body {
 </table>
 </fieldset>
 <br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->other_options}</strong></legend>
 <table  >
 <tr>
@@ -3051,7 +3051,7 @@ body {
 		</div>]]></template>
 		<template name="private_archive_csv" version="120"><![CDATA[{$lang->export_date_sent},{$lang->export_folder},{$lang->export_subject},{$lang->export_to},{$lang->export_from},{$lang->export_message}
 {$pmsdownload}]]></template>
-		<template name="usercp_profile_customtitle" version="120"><![CDATA[<fieldset class="trow2">
+		<template name="usercp_profile_customtitle" version="120"><![CDATA[<fieldset>
 <legend><strong>{$lang->custom_usertitle}</strong></legend>
 <table  >
 <tr>
@@ -3105,7 +3105,7 @@ body {
 </tr>
 <tr>
 <td width="50%" class="trow1" valign="top">
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->profile_required}</strong></legend>
 <table  >
 <tr>
@@ -3115,7 +3115,7 @@ body {
 </table>
 </fieldset>
 <br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->profile_optional}</strong></legend>
 <table  >
 <tr>
@@ -3173,7 +3173,7 @@ body {
 </td>
 <td width="50%" class="trow1" valign="top">
 {$customtitle}
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->additional_contact_details}</strong></legend>
 <table  >
 <tr>
@@ -3358,7 +3358,7 @@ body {
 </body>
 </html>]]></template>
 		<template name="member_register_referrer" version="1400"><![CDATA[<br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->referrer}</strong></legend>
 <table  >
 <tr>
@@ -4913,7 +4913,7 @@ body {
 </tr>
 ]]></template>
 		<template name="usercp_profile_profilefields" version="120"><![CDATA[<br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->additional_information}</strong></legend>
 <table   style="width: 100%;">
 {$customfields}
@@ -8293,9 +8293,9 @@ body { font-family: Verdana, Arial, sans-serif; font-size: 13px; }
 
 ]]></template>
 		<template name="member_register_requiredfields" version="1400"><![CDATA[<br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->additional_info}</strong></legend>
-<table  >
+<table>
 {$requiredfields}
 </table>
 </fieldset>]]></template>
@@ -8796,7 +8796,7 @@ body { font-family: Verdana, Arial, sans-serif; font-size: 13px; }
 </html>]]></template>
 		<template name="moderation_delayedmoderation_custommodtool" version="1600"><![CDATA[<dt><input type="radio" name="type" value="modtool_{$tool['tid']}" {$checked} id="type_modtool_{$tool['tid']}" onclick="toggleType();" /> <label class="radio" for="type_modtool_{$tool['tid']}"><strong>{$tool['name']}</strong> <small>({$lang->custom})</small></label></dt>]]></template>
 		<template name="member_register_regimage" version="1400"><![CDATA[<br />
-<fieldset class="trow2">
+<fieldset>
 <script type="text/javascript" src="jscripts/captcha.js?ver=1400"></script>
 <legend><strong>{$lang->image_verification}</strong></legend>
 <table  >
@@ -8829,7 +8829,7 @@ body { font-family: Verdana, Arial, sans-serif; font-size: 13px; }
 	};
 // -->
 </script>
-<fieldset class="trow2">
+<fieldset>
 	<legend><strong>{$lang->image_verification}</strong></legend>
 	<table  >
 	<tr>
@@ -8858,13 +8858,13 @@ body { font-family: Verdana, Arial, sans-serif; font-size: 13px; }
 <br />
 <form action="member.php" method="post" id="registration_form"><input type="text" style="visibility: hidden;" value="" name="regcheck1" /><input type="text" style="visibility: hidden;" value="true" name="regcheck2" />
 {$regerrors}
-<table  class="table table-bordered">
+<table  class="table">
 <tr>
 <td class="thead" colspan="2"><strong>{$lang->registration}</strong></td>
 </tr>
 <tr>
 <td width="50%" class="trow1" valign="top">
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->account_details}</strong></legend>
 <table   style="width: 100%;">
 <tr>
@@ -8893,7 +8893,7 @@ body { font-family: Verdana, Arial, sans-serif; font-size: 13px; }
 {$regimage}
 </td>
 <td width="50%" class="trow1" valign="top">
-<fieldset class="trow2">
+<fieldset>
 <legend><strong>{$lang->account_prefs}</strong></legend>
 <table   style="width: 100%;">
 <tr>
@@ -8936,7 +8936,7 @@ body { font-family: Verdana, Arial, sans-serif; font-size: 13px; }
 </table>
 </fieldset>
 <br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong><label class="radio" for="timezone">{$lang->time_offset}</label></strong></legend>
 <table   style="width: 100%;">
 <tr>
@@ -8960,7 +8960,7 @@ body { font-family: Verdana, Arial, sans-serif; font-size: 13px; }
 </table>
 </fieldset>
 <br />
-<fieldset class="trow2">
+<fieldset>
 <legend><strong><label class="radio" for="language">{$lang->lang_select}</label></strong></legend>
 <table   style="width: 100%;">
 <tr>
@@ -11169,7 +11169,7 @@ document.write('<br /><span class="smalltext"><a href="#" onclick="UserCP.openBu
 						</tr>
 						<tr>
 							<td width="50%" class="trow1" valign="top">
-								<fieldset class="trow2">
+								<fieldset>
 									<legend><strong>{$lang->profile_required}</strong></legend>
 									<table  >
 										<tr>
@@ -11182,7 +11182,7 @@ document.write('<br /><span class="smalltext"><a href="#" onclick="UserCP.openBu
 									</table>
 								</fieldset>
 								<br />
-								<fieldset class="trow2">
+								<fieldset>
 									<legend><strong>{$lang->profile_optional}</strong></legend>
 									<table  >
 										<tr>
@@ -11231,7 +11231,7 @@ document.write('<br /><span class="smalltext"><a href="#" onclick="UserCP.openBu
 								{$customfields}
 							</td>
 							<td width="50%" class="trow1" valign="top">
-								<fieldset class="trow2">
+								<fieldset>
 									<legend><strong>{$lang->custom_usertitle}</strong></legend>
 									<table  >
 										<tr>
@@ -11261,7 +11261,7 @@ document.write('<br /><span class="smalltext"><a href="#" onclick="UserCP.openBu
 									</table>
 								</fieldset>
 								<br />
-								<fieldset class="trow2">
+								<fieldset>
 									<legend><strong>{$lang->additional_contact_details}</strong></legend>
 									<table  >
 										<tr>
@@ -11291,7 +11291,7 @@ document.write('<br /><span class="smalltext"><a href="#" onclick="UserCP.openBu
 									</table>
 								</fieldset>
 								<br />
-								<fieldset class="trow2">
+								<fieldset>
 									<legend><strong>{$lang->moderation}</strong></legend>
 									<table   style="width: 100%;">
 										<tr>
@@ -11347,7 +11347,7 @@ document.write('<br /><span class="smalltext"><a href="#" onclick="UserCP.openBu
 						</tr>
 						<tr>
 							<td colspan="2" class="trow1" valign="top">
-								<fieldset class="trow2">
+								<fieldset>
 									<legend><strong>{$lang->mod_notes}</strong></legend>
 									<textarea name="usernotes" id="usernotes" rows="10" cols="70">{$user['usernotes']}</textarea>
 								</fieldset>
